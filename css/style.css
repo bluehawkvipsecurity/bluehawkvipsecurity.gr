@@ -25,21 +25,6 @@ html {
   font-size: 100%;
 }
 
-.about-thumb p,
-.about-thumb li {
-    color: #6B7280 !important;
-}
-
-.about-thumb li::marker {
-    color: #6B7280;
-}
-
-.about-thumb h2 {
-    color: #374151 !important;
-}
-.about-thumb h1 {
-    color: #111827 !important;
-}
 
 /*---------------------------------------
     Typorgraphy
@@ -377,6 +362,23 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     About Section
 -----------------------------------------*/
+#about .about-thumb p,
+#about .about-thumb li {
+    color: #6B7280 !important;
+}
+
+#about .about-thumb ul li::marker {
+    color: #6B7280 !important;
+}
+
+#about .about-thumb h2 {
+    color: #374151 !important;
+}
+
+#about .about-thumb h1 {
+    color: #111827 !important;
+}
+
 
 #about {
   background: #071428;
