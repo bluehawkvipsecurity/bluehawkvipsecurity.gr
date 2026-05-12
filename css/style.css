@@ -364,33 +364,46 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #about .about-thumb ul {
     padding-left: 22px;
+    list-style: none !important;
 }
 
 #about .about-thumb li {
+    position:relative;
     color: #6B7280 !important;
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 1.2rem;
+    line-height: 1.6;
     margin-bottom: 6px;
+    padding-left: 1.8rem;
 }
 
-#about .about-thumb ul li::marker {
-    color: #9CA3AF !important; 
-    font-size: 1.2em; 
-}
 
 #about .about-thumb p {
-    color: #6B7280 !important;
-    line-height: 1.8;
+    color: #585D69 !important;
+    line-height: 1.5;
+    font-size:1.5rem
 }
 
 #about .about-thumb h2 {
-    color: #374151 !important;
+    color: #1F2937 !important;
     margin-top: 28px;
     margin-bottom: 14px;
+    font-size: 1.7rem
 }
 
 #about .about-thumb h1 {
     color: #111827 !important;
+}
+
+#about .about-thumb li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #9CA3AF;
+    border-radius: 50%;
+    background: transparent;
 }
 
 #about {
@@ -403,14 +416,14 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-thumb {
-  background: #ffffff;
+  background: #EEF4FA;
   border-radius: 4px;
   padding: 100px;
   position: relative;
 }
 
 #about .about-img img {
-  border: 8px solid #ffffff;
+  border: 8px solid #EEF4FA;
   position: absolute;
   left: -120px;
   bottom: -325px;
