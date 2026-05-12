@@ -25,6 +25,18 @@ html {
   font-size: 100%;
 }
 
+.about-thumb p,
+.about-thumb li {
+  color: #6B7280;
+}
+
+.about-thumb li::marker {
+  color: #6B7280;
+}
+
+.about-thumb h2 {
+  color: #374151;
+}
 
 /*---------------------------------------
     Typorgraphy
