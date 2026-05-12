@@ -362,23 +362,36 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     About Section
 -----------------------------------------*/
-#about .about-thumb p,
+#about .about-thumb ul {
+    padding-left: 22px;
+}
+
 #about .about-thumb li {
     color: #6B7280 !important;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 6px;
 }
 
 #about .about-thumb ul li::marker {
+    color: #9CA3AF !important; 
+    font-size: 1.2em; 
+}
+
+#about .about-thumb p {
     color: #6B7280 !important;
+    line-height: 1.8;
 }
 
 #about .about-thumb h2 {
     color: #374151 !important;
+    margin-top: 28px;
+    margin-bottom: 14px;
 }
 
 #about .about-thumb h1 {
     color: #111827 !important;
 }
-
 
 #about {
   background: #071428;
